@@ -15,6 +15,16 @@ A [packer distribution][distribution] can be used to install
 packer. Follow the [installation instructions][install] how to setup
 packer correcly.
 
+Verify
+------
+
+With `packer` available the following command verifies the asteroids
+box:
+
+```sh
+packer verify asteroids.json
+```
+
 [packer]: http://www.packer.io
 [vagrant]: http://www.vagrantup.com/
 [distribution]: http://www.packer.io/downloads.html
