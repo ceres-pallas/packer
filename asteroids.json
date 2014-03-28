@@ -38,5 +38,10 @@
         }
       }
     }
+  ],
+  "post-processors": [
+    {
+      "type": "vagrant"
+    }
   ]
 }
