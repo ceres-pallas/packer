@@ -15,14 +15,24 @@ A [packer distribution][distribution] can be used to install
 packer. Follow the [installation instructions][install] how to setup
 packer correcly.
 
-Verify
-------
+Validate
+--------
 
-With `packer` available the following command verifies the asteroids
+With `packer` available the following command validates the asteroids
 box:
 
 ```sh
-packer verify asteroids.json
+packer validate asteroids.json
+```
+
+Build
+-----
+
+When `packer validate` successfully validates it is time to build the
+box.
+
+```sh
+packer build asteroids.json
 ```
 
 [packer]: http://www.packer.io
