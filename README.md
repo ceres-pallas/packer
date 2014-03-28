@@ -35,7 +35,25 @@ box.
 packer build asteroids.json
 ```
 
+Deploy
+------
+
+The corresponding `box` is deployed to [amazon S3][s3]. At the moment
+this is a manual step.
+
+Vagrant Cloud
+-------------
+
+For ease of use the box is registered with [Vagrant Cloud][vagrant  cloud].
+So one can use the following command to initialize a vagrant project.
+
+```sh
+vagrant init dvberkel/asteroids
+```
+
 [packer]: http://www.packer.io
 [vagrant]: http://www.vagrantup.com/
 [distribution]: http://www.packer.io/downloads.html
 [install]: http://www.packer.io/intro/getting-started/setup.html
+[s3]: http://aws.amazon.com/s3/
+[vagrant cloud]: https://vagrantcloud.com/
