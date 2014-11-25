@@ -44,7 +44,7 @@ this is a manual step.
 Vagrant Cloud
 -------------
 
-For ease of use the box is registered with [Vagrant Cloud][vagrant  cloud].
+For ease of use the box is registered with [Vagrant Cloud][vagrant cloud].
 So one can use the following command to initialize a vagrant project.
 
 ```sh
