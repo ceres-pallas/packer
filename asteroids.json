@@ -30,6 +30,7 @@
     {
       "scripts": [
           "scripts/root_setup.sh",
+		  "scripts/guest_additions.sh",
 		  "scripts/node.sh"
       ],
       "type": "shell",
