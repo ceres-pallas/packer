@@ -19,3 +19,6 @@ sed -i -e 's/%admin ALL=(ALL) ALL/%admin ALL=NOPASSWD:ALL/g' /etc/sudoers
 # Setup vagrant ssh keys
 mkdir ~/.ssh
 wget -qO- https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub >> ~/.ssh/authorized_keys
+
+reboot
+sleep 60
