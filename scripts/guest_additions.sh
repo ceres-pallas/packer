@@ -4,7 +4,7 @@
 export KERN_DIR=/usr/src/kernels/`uname -r`
 
 mkdir -p /mnt/virtualbox
-mount -o loop /tmp/VBoxGuestAdditions.iso /mnt/virtualbox
+mount -o loop /home/vagrant/VBoxGuestAdditions.iso /mnt/virtualbox
 /mnt/virtualbox/VBoxLinuxAdditions.run --nox11
 umount /mnt/virtualbox
 
